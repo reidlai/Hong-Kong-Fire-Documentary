@@ -1,5 +1,9 @@
 # German Language News (Deutsche Nachrichten)
 
+## Media Outlets
+
+- [Tagesschau](../Tagesschau/Readme.md)
+
 ## Pending Collection (Sammlung ausstehend)
 
-- *(No articles collected yet / Noch keine Artikel gesammelt)*
+- *(No other articles collected yet / Noch keine anderen Artikel gesammelt)*
