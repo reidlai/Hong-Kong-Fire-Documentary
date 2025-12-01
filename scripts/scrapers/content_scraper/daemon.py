@@ -28,9 +28,10 @@ import os
 import subprocess
 import sys
 import time
+from collections.abc import Callable
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Callable, TypeVar
+from typing import TypeVar
 
 T = TypeVar("T")
 
@@ -70,6 +71,7 @@ def retry_on_failure(max_retries: int = 3, delay: float = 5, backoff: float = 2,
         return wrapper
 
     return decorator
+
 
 # Project paths
 SCRIPT_DIR = Path(__file__).parent.resolve()

@@ -1,6 +1,6 @@
 [English Version](#english-version)
 
-> **Mirror Site / 鏡像網站**: https://wfc-fire.collection.news/
+> **Mirror Site / 鏡像網站**: <https://wfc-fire.collection.news/>
 >
 > This mirror is synchronized every 12 hours to ensure data accessibility in case of takedown or censorship.
 > 本鏡像網站每 12 小時同步一次，以確保在被移除或審查時仍可存取資料。
@@ -236,9 +236,11 @@ pip install -r requirements.txt
 - **`scripts/archive_database.py`**：新聞資料庫自動備份工具 (JSON)
   - 自動掃描 `scraped_urls.json` 資料庫中的連結，將其備份至 Internet Archive，並將備份連結 (`archive_url`) 寫回資料庫中。
   - **使用方法**：
+
     ```bash
     python3 scripts/archive_database.py scripts/scrapers/content_scraper/scraped_urls.json
     ```
+
 - **`mkdocs.yml`**：網站生成配置文件 (MkDocs Configuration)
   - 定義網站結構、主題及多語言支援 (i18n) 設定
 
@@ -475,6 +477,7 @@ This repository includes automation tools and CI/CD workflows for developers:
   - Automatically scan links from the Database(`scraped_urls.json`) and back up to Internet Archive, with the back up link(`archive_url`) inserted back to the Database.
 
   - **Usage**:
+
     ```bash
     python3 scripts/archive_database.py scripts/scrapers/content_scraper/scraped_urls.json
     ```
